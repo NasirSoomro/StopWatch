@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styl.css">
+    <style>
+        body{ background-color: #7FFFD4;
+            text-align: center;
+            margin-top:50px;
+        }
+        h1{ display: inline-block;
+            width: 160px;
+            background-color:#2F4F4F;
+            color:#fff;
+            text-align: center;
+        }
+        h3{
+            display: inline-block; 
+        }
+    </style>
+</head>
+<body>
+<p>StopWatch</p>
+
+<!-- <h1 id="hr">0</h1> -->
+<h1 id="min">00 </h1>
+<h1 id="sec">00</h1>
+<h1 id="msec">00</h1>
+
+<br>
+ 
+<h3>Min</h3>
+<h3>Sec</h3>
+<h3>MiliSec</h3>
+<br>
+<br>
+<div>
+    <button id="p" onclick="start()" class="btn"  >Start</button>
+    <button onclick="stop()" class="btn">Pause</button>
+    <button onclick="reset()" class="btn">Reset</button>
+</div>
+
+
+
+
+
+
+</body>
+<script src="app.js"></script>
+</html>
