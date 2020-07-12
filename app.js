@@ -34,6 +34,7 @@
  }
  function stop(){
     clearInterval (interval) 
+    document.getElementById("p").disabled = false;
  }
  function reset(){
     min = 0;
